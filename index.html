@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Handsontable Ternary Plot</title>
+      <link rel="stylesheet" href="/src/styles.css">
+    </head>
+    <body>
+      <div id="app">
+        <div class="container">
+          <div id="grid" class="grid"></div>
+          <div class="controls">
+            <label for="scaleSelect">Axis Scale:</label>
+            <select id="scaleSelect">
+              <option value="1">0-1</option>
+              <option value="100">0-100</option>
+            </select>
+          </div>
+          <div id="plot" class="plot"></div>
+        </div>
+      </div>
+      <script type="module" src="/src/main.js"></script>
+    </body>
+    </html>

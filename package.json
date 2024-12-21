@@ -1,0 +1,16 @@
+{
+      "name": "handsontable-ternary-plot",
+      "version": "1.0.0",
+      "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+      },
+      "dependencies": {
+        "handsontable": "^12.1.0",
+        "plotly.js-dist": "^2.14.0"
+      },
+      "devDependencies": {
+        "vite": "^4.2.0"
+      }
+    }
